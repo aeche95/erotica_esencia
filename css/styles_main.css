@@ -24,7 +24,7 @@ body {
 #logo_titulo {
     width: 500px;
     height: 200px;
-    clear:right;
+    clear: both;
     margin-top: 50px;
     float: left;
 }

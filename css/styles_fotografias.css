@@ -4,13 +4,43 @@
     background-repeat: repeat;
 }
 
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px;
+    font-size: 300%;
+    margin-top: 300px;
+    color: gold;
+    font-style: italic;
+}
+
+.fila{
+    
+}
+
 .objects {
     clear: left;
     padding-top: 30px;
 }
+
 .obj{
-    float: left;
+    
+    margin-bottom: 30px;
 }
+
+.obj img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+    
+.obj p{
+    font-size: 150%;
+    color: white;
+    text-align: center;
+}
+
 .obj_1 img {
     height: 330px;
     width: 544px;
@@ -27,6 +57,6 @@
 }
 
 .obj_4 img{
-    width: 668px;
-    height: 488px;
+    width: 334px;
+    height: 244px;
 }
