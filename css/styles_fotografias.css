@@ -1,0 +1,32 @@
+﻿body
+{
+    background-image: url("../img/fondo_otras_paginas.jpg");
+    background-repeat: repeat;
+}
+
+.objects {
+    clear: left;
+    padding-top: 30px;
+}
+.obj{
+    float: left;
+}
+.obj_1 img {
+    height: 330px;
+    width: 544px;
+}
+
+.obj_2 img {
+    width: 600px;
+    height: 336px;
+}
+
+.obj_3 img{
+    width: 500px;
+    height: 225px;
+}
+
+.obj_4 img{
+    width: 668px;
+    height: 488px;
+}

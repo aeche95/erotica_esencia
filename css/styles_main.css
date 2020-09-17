@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url('../img/fondo_inicio.jpg');
+  background-size:cover;
+  width:100%;
+  font-family: MingLiU-ExtB, Arial;
+}
+
+#collapsable-nav{
+    clear: both;
+}
+#nav-list li {
+    text-align: center;
+ 
+    margin: 0px 3px;
+}
+#header-nav{
+    visibility: hidden;
+}
+
+#logo_titulo {
+    width: 500px;
+    height: 200px;
+    clear:right;
+    margin-top: 50px;
+    float: left;
+}
+
+.enlaces-principales {
+    float: left;
+    clear: both;
+    width: auto;
+   /* background-color: red;*/
+}
+
+.enlaces-principales li {
+    list-style-type: none;
+    font-size: 300%;
+    padding-top: 30px;
+}
+.enlaces-principales a{
+    color: black;
+    text-decoration: none;
+}
+.enlaces-principales a:hover{
+    font-size:120%;
+    color: gold;
+}
+
+.navbar-toggle{
+    opacity: 1;
+    visibility:visible;
+}
+
