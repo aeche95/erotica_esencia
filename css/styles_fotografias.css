@@ -1,7 +1,8 @@
 ﻿body
 {
     background-image: url("../img/fondo_otras_paginas.jpg");
-    background-repeat: repeat;
+    background-repeat: repeat-y;
+    background-size:contain;
 }
 
 h1{
@@ -35,28 +36,28 @@ h1{
     width: 50%;
 }
     
-.obj p{
-    font-size: 150%;
+.obj h3{
+    font-size: 200%;
     color: white;
     text-align: center;
 }
 
 .obj_1 img {
-    height: 330px;
-    width: 544px;
+    height: 660px;
+    width: 1088px;
 }
 
 .obj_2 img {
-    width: 600px;
-    height: 336px;
+    width: 1200px;
+    height: 672px;
 }
 
 .obj_3 img{
-    width: 500px;
-    height: 225px;
+    width: 1000px;
+    height: 450px;
 }
 
 .obj_4 img{
-    width: 334px;
-    height: 244px;
+    width: 668px;
+    height: 488px;
 }
