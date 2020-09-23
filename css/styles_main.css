@@ -12,6 +12,7 @@ body {
   width: 100%;
   background-size: 100%;
   display: block;
+  background-repeat: no-repeat;
   /*height: 1150px;*/
 }
 

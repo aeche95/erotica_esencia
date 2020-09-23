@@ -1,19 +1,15 @@
-
+var ratio = 0.745;
 $(document).ready(function () {
-    var ratio = 0.7567;
     var inicio = document.getElementById("inicio");
-    var width = screen.availWidth;
+    var width = window.innerWidth;
     var height = width * ratio;
-    inicio.setAttribute("style","height: "+height+"px")
-   console.log(inicio)
+    inicio.setAttribute("style", "height: " + height + "px");
 });
 
-$(document).onresize(function () {
-    var ratio = 0.7567;
+$(document).resize(function () {
     var inicio = document.getElementById("inicio");
-    var width = screen.availWidth;
+    var width = window.innerWidth;
     var height = width * ratio;
-    inicio.setAttribute("style", "height: " + height + "px")
-    console.log(inicio)
-
+    inicio.removeAttribute("style")
+    inicio.setAttribute("style", "height: " + height + "px");
 });
