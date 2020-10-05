@@ -6,10 +6,11 @@ $(document).ready(function () {
     inicio.setAttribute("style", "height: " + height + "px");
 });
 
-$(document).resize(function () {
+$(window).resize(function () {
     var inicio = document.getElementById("inicio");
     var width = window.innerWidth;
     var height = width * ratio;
     inicio.removeAttribute("style")
     inicio.setAttribute("style", "height: " + height + "px");
+    console.log("...")
 });

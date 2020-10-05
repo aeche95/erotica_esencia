@@ -12,8 +12,8 @@ body {
   width: 100%;
   background-size: 100%;
   display: block;
-  background-repeat: no-repeat;
-  /*height: 1150px;*/
+ /* background-repeat: no-repeat;
+  height: 1150px;*/
 }
 
 #collapsable-nav{
@@ -136,4 +136,9 @@ h1 {
 .obj_6 img {
     width: 1320px;
     height: 672px;
+}
+
+.obj_7 img{
+    width: 1500px;
+    height: 842px;
 }
