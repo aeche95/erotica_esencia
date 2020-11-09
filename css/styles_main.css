@@ -2,6 +2,9 @@
 /*Estilos de la parte principal de la pagina*/
 body {
     font-family: MingLiU-ExtB, Arial;
+    display: block;
+    float: left;
+    width: 15000px;
 }
 *{
     box-sizing: border-box;
@@ -9,7 +12,7 @@ body {
 
 #inicio {
   background-image: url('../img/fondo_inicio.jpg');
-  width: 100%;
+  width: 4200px;
   background-size: 100%;
   display: block;
  /* background-repeat: no-repeat;
@@ -31,7 +34,6 @@ body {
 #logo_titulo {
     width: 500px;
     height: 200px;
-    clear: both;
     margin-top: 50px;
     float: left;
 }
@@ -67,7 +69,7 @@ body {
 #fotografias {
     background-image: url("../img/fondo_otras_paginas_recorte.jpg");
     /*background-repeat: repeat-y;*/
-    width: 100%;
+    width: 8000px;
     background-size: 100%;
     display: block;
 }
@@ -83,6 +85,7 @@ h1 {
 }
 
 .fila {
+    float: left;
 }
 
 .objects {
