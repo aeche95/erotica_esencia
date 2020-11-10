@@ -2,25 +2,22 @@
 /*Estilos de la parte principal de la pagina*/
 body {
     font-family: MingLiU-ExtB, Arial;
-    display: block;
-    float: left;
-    width: 40000px;
+    font-size: 18px;
+    width: 20000px;
+    height: 100%;
+    overflow-y:hidden;
 }
 *{
     box-sizing: border-box;
 }
 section{
-    display:block;
+    display: inline-block;
     float: left;
 }
 
 #inicio {
   background-image: url('../img/fondo_inicio.jpg');
-  width: 4200px;
   background-size: 100%;
-  display: block;
- /* background-repeat: no-repeat;
-  height: 1150px;*/
 }
 
 #collapsable-nav{
@@ -36,10 +33,10 @@ section{
 }
 
 #logo_titulo {
-    width: 500px;
-    height: 200px;
-    margin-top: 50px;
+    width: 50%;
+    height: 10%;
     float: left;
+    padding-left:5%;
 }
 
 .enlaces-principales {
@@ -52,7 +49,7 @@ section{
 .enlaces-principales li {
     list-style-type: none;
     font-size: 300%;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 .enlaces-principales a{
     color: black;
@@ -65,7 +62,7 @@ section{
 
 .navbar-toggle{
     opacity: 1;
-    visibility:visible;
+    visibility: visible;
 }
 
 /*Estilos de la parte de fotografias de la pagina*/
@@ -73,18 +70,16 @@ section{
 #fotografias {
     background-image: url("../img/fondo_otras_paginas_recorte.jpg");
     background-repeat: repeat;
-    width: 20000px;
-    display: block;
+    width: 8000px;
 }
 
-h1 {
-    text-align: center;
+#fotografias h1 {
+    text-align: left;
     text-transform: uppercase;
-    margin: 30px;
-    font-size: 300%;
-    margin-top: 300px;
+    font-size: 400%;
     color: gold;
     font-style: italic;
+    height: 20%;
 }
 
 .objects {
@@ -94,17 +89,19 @@ h1 {
 .obj {
     margin: 5px 20px;
     float: left;
+    display: inline-block;
+    height: 80%;
 }
 
 .obj img {
-   display: block;
    margin-left: auto;
    margin-right: auto;
    width: 50%;
+   max-height: 80%;
 }
 
 .obj h3 {
-   font-size: 200%;
+   font-size: 150%;
    color: white;
    text-align: center;
 }
