@@ -68,9 +68,8 @@ body {
 
 #fotografias {
     background-image: url("../img/fondo_otras_paginas_recorte.jpg");
-    /*background-repeat: repeat-y;*/
-    width: 8000px;
-    background-size: 100%;
+    background-repeat: repeat;
+    width: 20000px;
     display: block;
 }
 
@@ -84,17 +83,13 @@ h1 {
     font-style: italic;
 }
 
-.fila {
-    float: left;
-}
-
 .objects {
-    clear: left;
     padding-top: 30px;
 }
 
 .obj {
     margin-bottom: 30px;
+    float: left;
 }
 
 .obj img {
