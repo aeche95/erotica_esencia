@@ -4,10 +4,14 @@ body {
     font-family: MingLiU-ExtB, Arial;
     display: block;
     float: left;
-    width: 15000px;
+    width: 40000px;
 }
 *{
     box-sizing: border-box;
+}
+section{
+    display:block;
+    float: left;
 }
 
 #inicio {
@@ -88,7 +92,7 @@ h1 {
 }
 
 .obj {
-    margin-bottom: 30px;
+    margin: 5px 20px;
     float: left;
 }
 
