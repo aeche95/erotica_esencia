@@ -19,12 +19,18 @@ section{
     margin: 0px;
     padding: 0px;
 }
-
 #inicio {
-  background-image: url('../img/fondo_inicio.jpg');
-  background-size: 100%;
+  display:block;
+  margin:0px;
+  padding: 0px;
 }
-
+#centrar{
+    display:block;
+    background-image: url('../img/fondo_inicio.jpg');
+    background-size: 100%;
+    margin: 0px auto;
+    padding: 0px;
+}
 #logo_titulo {
     width: 50%;
     margin: 3% auto;
@@ -70,6 +76,7 @@ section{
     color: gold;
     font-style: italic;
     height: 20%;
+    margin: 0px;
 }
 
 .objects {
