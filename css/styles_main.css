@@ -5,7 +5,10 @@ body {
     font-size: 18px;
     width: 20000px;
     height: 100%;
-    overflow-y:hidden;
+    overflow-y: hidden;
+    background-image: url("../img/fondo_otras_paginas_recorte.jpg");
+    background-repeat: repeat;
+    margin: 0px;
 }
 *{
     box-sizing: border-box;
@@ -13,6 +16,8 @@ body {
 section{
     display: inline-block;
     float: left;
+    margin: 0px;
+    padding: 0px;
 }
 
 #inicio {
@@ -20,39 +25,25 @@ section{
   background-size: 100%;
 }
 
-#collapsable-nav{
-    clear: both;
-}
-#nav-list li {
-    text-align: center;
- 
-    margin: 0px 3px;
-}
-#header-nav{
-    visibility: hidden;
-}
-
 #logo_titulo {
     width: 50%;
-    height: 10%;
-    float: left;
-    padding-left:5%;
+    margin: auto;
+    display: block;
 }
 
 .enlaces-principales {
     float: left;
     clear: both;
-    width: auto;
    /* background-color: red;*/
 }
 
 .enlaces-principales li {
     list-style-type: none;
-    font-size: 300%;
-    padding-top: 10px;
+    font-size: 200%;
+    /*padding-top: 10px;*/
 }
 .enlaces-principales a{
-    color: black;
+    color: #000000;
     text-decoration: none;
 }
 .enlaces-principales a:hover{
@@ -68,15 +59,13 @@ section{
 /*Estilos de la parte de fotografias de la pagina*/
 
 #fotografias {
-    background-image: url("../img/fondo_otras_paginas_recorte.jpg");
-    background-repeat: repeat;
     width: 8000px;
 }
 
 #fotografias h1 {
     text-align: left;
     text-transform: uppercase;
-    font-size: 400%;
+    font-size: 300%;
     color: gold;
     font-style: italic;
     height: 20%;
@@ -101,8 +90,8 @@ section{
 }
 
 .obj h3 {
-   font-size: 150%;
-   color: white;
+   font-size: 120%;
+   color: #000000;
    text-align: center;
 }
 
