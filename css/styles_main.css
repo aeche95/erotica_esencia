@@ -27,13 +27,14 @@ section{
 
 #logo_titulo {
     width: 50%;
-    margin: auto;
+    margin: 3% auto;
     display: block;
 }
 
 .enlaces-principales {
     float: left;
     clear: both;
+    margin-top: 15%
    /* background-color: red;*/
 }
 
