@@ -26,7 +26,7 @@ $(document).ready(function () {
     setWidthAndHeight();
     //centrar();
     $('html, body, *').mousewheel(function (e, delta) {
-        this.scrollLeft -= (delta*10);
+        this.scrollLeft -= (delta*30);
         e.preventDefault();
     });
    });
