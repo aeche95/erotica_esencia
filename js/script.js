@@ -8,7 +8,7 @@ function setWidthAndHeight() {
     $("section").css({ "height": h + "px" });
     $("#inicio").css({ "width": window.innerWidth + "px" });
     $("#centrar").css({ "width": w + "px", "height": h+"px" });
-    $(".obj img, .obj h3").css({ "width": "600px", "height": "400px"});
+    $(".obj img, .obj h3").css({ "width": "640px", "height": "480px"});
 }
 
 function centrar() {
