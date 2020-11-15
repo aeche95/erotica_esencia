@@ -64,13 +64,13 @@ section{
     visibility: visible;
 }
 
-/*Estilos de la parte de fotografias de la pagina*/
+/*Estilos de la parte de contenido de la pagina*/
 
-#fotografias {
+#contenido {
     width: 8000px;
 }
 
-#fotografias h1 {
+#contenido h1 {
     text-align: left;
     text-transform: uppercase;
     font-size: 300%;
