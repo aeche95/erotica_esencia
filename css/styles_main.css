@@ -2,7 +2,7 @@
 /*Estilos de la parte principal de la pagina*/
 body {
     font-family: MingLiU-ExtB, Arial;
-    font-size: 18px;
+    font-size: 24px;
     width: 20000px;
     height: 100%;
     overflow-y: hidden;
@@ -41,7 +41,7 @@ section{
 .enlaces-principales {
     float: left;
     clear: both;
-    margin-top: 15%
+    margin-top: 5%
    /* background-color: red;*/
 }
 
@@ -72,11 +72,11 @@ section{
 
 #contenido h1 {
     text-align: left;
-    text-transform: uppercase;
-    font-size: 300%;
-    color: gold;
-    font-style: italic;
-    height: 20%;
+    text-transform: capitalize;
+    font-size: 200%;
+    color: #000000;
+    /*font-style: italic;*/
+    height: 15%;
     margin: 0px;
 }
 
