@@ -67,7 +67,7 @@ section{
 /*Estilos de la parte de contenido de la pagina*/
 
 #contenido {
-    width: 8000px;
+   
 }
 
 #contenido h1 {
@@ -84,8 +84,8 @@ section{
     padding-top: 30px;
 }
 
-.obj {
-    margin: 5px 20px;
+.obj, iframe {
+    margin: 0px 20px;
     float: left;
     display: inline-block;
     height: 80%;
