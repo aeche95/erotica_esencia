@@ -6,7 +6,7 @@ body {
     width: 20000px;
     height: 100%;
     overflow-y: hidden;
-    background-image: url("../img/fondo_otras_paginas_recorte.jpg");
+    background-image: url("../img/fondo_otras_paginas_tile.jpg");
     background-repeat: repeat;
     margin: 0px;
 }
@@ -88,18 +88,6 @@ section{
     margin: 0px 20px;
     float: left;
     display: inline-block;
-    height: 80%;
-}
-
-.obj img {
-   margin-left: auto;
-   margin-right: auto;
-   width: 50%;
-   max-height: 80%;
-}
-
-.obj h3 {
-   font-size: 120%;
-   color: #000000;
-   text-align: center;
+    height: 70%;
+    border: 5px solid black;
 }
