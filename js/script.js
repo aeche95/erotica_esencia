@@ -6,11 +6,13 @@ function setWidthAndHeight() {
     //console.log("Width: " + w); 
     $("section").css({ "height": h + "px" });
     $("#inicio").css({ "width": window.innerWidth + "px" });
-    $("#centrar").css({ "width": w + "px", "height": h+"px" });
+    $("#centrar").css({ "width": w + "px", "height": h+ "px" });
     var iframe_height_str = $("iframe").css("height");
     var iframe_height = iframe_height_str.substr(0, iframe_height_str.length - 2);
-    console.log(iframe_height);
-    $("iframe").css({ "width": iframe_height*1.77778})
+    //console.log(iframe_height);
+    $("iframe").css({ "width": iframe_height * 1.77778 });
+    //TODO Ajustar el ancho de body automaticamente
+    //$("body").css({ "width": w_body +"px"});
 }
 
 $(document).ready(function () {

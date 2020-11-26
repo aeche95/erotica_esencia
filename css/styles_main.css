@@ -14,13 +14,12 @@ body {
     box-sizing: border-box;
 }
 section{
-    display: inline-block;
+    display: block;
     float: left;
     margin: 0px;
     padding: 5px;
 }
 #inicio {
-  display:block;
   margin:0px;
   padding: 0px;
 }
