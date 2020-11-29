@@ -15,13 +15,31 @@ function setWidthAndHeight() {
     //$("body").css({ "width": w_body +"px"});
 }
 
+function modal(img) {
+    var modal = $("#myModal");
+    var image = img;
+    var modalImg = $("#modalImg");
+    modal.style.display = "block";
+    modalImg.src = image.src;
+    
+}
+
 $(document).ready(function () {
     setWidthAndHeight();
     $('html, body, *').mousewheel(function (e, delta) {
-        this.scrollLeft -= (delta*30);
+        this.scrollLeft -= (delta * 30);
         e.preventDefault();
     });
-   });
+    $(".obj").click(function () {
+        modal(this);
+    });
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    };
+});
 
 $(window).resize(function () {
     setWidthAndHeight();
